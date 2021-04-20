@@ -19,7 +19,7 @@ import EditPage from "./components/EditPage";
 import NotFound from "./components/NotFound";
 import Search from "./components/Search";
 import { CSSTransition } from "react-transition-group";
-Axios.defaults.baseURL = "http://localhost:8082/";
+Axios.defaults.baseURL = "https://backend-complexe-app.herokuapp.com/";
 
 function App() {
   const initialState = {
